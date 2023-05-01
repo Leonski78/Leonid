@@ -33,7 +33,7 @@ for i in range(1, k):
         if get_divisors_sum(i) == j and get_divisors_sum(j) == i:
             amicable_pairs.append((i, j))
 
- 
+ '''
 
 def find_sum_delitel(num: int) -> int:
     summ = 0
@@ -49,8 +49,8 @@ for num_1 in range(2, k):
 
     if (find_sum_delitel(num_2) == num_1) and (num_1 < num_2):
         print (num_1, num_2)
+
 '''
-# 
 def summarize(number, sum=0):
     for item in range(1, number//2+1):
         if number % item == 0:
@@ -69,3 +69,4 @@ for i in range(len(my_list)):
         print(item, sum1)
         lst.append((item, sum1))
 print(lst)
+''''''

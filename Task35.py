@@ -14,3 +14,10 @@ def simple(num):
 
 N = int(input("Введите число:"))
 print(simple(N))
+
+# 
+def f(some_list=None):
+    if some_list is None:
+        some_list = []
+    some_list.append(2)
+    print(some_list)

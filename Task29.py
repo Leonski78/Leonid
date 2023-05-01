@@ -16,6 +16,8 @@ maxx = -1
 while (number:=int(input("Введите число: "))) != 0:
     if number > maxx:
         maxx = number
+# Маржовый оператор :=
+
 
 print(maxx)
 # 
