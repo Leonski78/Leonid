@@ -15,3 +15,12 @@ def cnt_pair(lst: list[int]) -> int:
     return cnt
 
 print(cnt_pair(list_start))
+
+# 
+def how_many_pairs(new_list):
+    counter = 0
+    for i in range(len(new_list) - 1):
+        for j in range(i + 1, len(new_list)):
+            if new_list[i] == new_list[j]:
+                counter += 1
+    return(counter)

@@ -18,9 +18,9 @@ letters = {1:"AEIOULNSTRАВЕИНОРСТ",
 word = input("Введите слово: ").upper()
 summ = 0
 for i in word:
-    for v, k in letters.items():
-        if i in k:
-            summ += v
+    for k, v in letters.items():
+        if i in v:
+            summ += k
 print(f"Стоимость слова: {summ}")
 
 # for key, val in dict_1.items():
